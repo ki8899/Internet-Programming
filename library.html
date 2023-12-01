@@ -1,0 +1,52 @@
+<html>
+<head>
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(80, 35, 35);
+        }
+        p{
+            text-align: center;
+            text-align: center;
+            background: content-box transparent;
+        }
+        form{
+            text-align: center;
+        }
+        body{
+            background-image: url("C:/Users/haris/Downloads/download.png");
+            background-size: cover;
+            color: beige;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <title>
+        Library Management System
+    </title>
+    <h1>Library System</h1>
+    <p>
+        <form method="POST" action="test.php">
+    <label for = "lname">Username</label>
+    <input type="text" id="lname" name="lname"><br>
+    <br>
+    <label for = "pname">Password</label>
+    <input type="password" id="pname" name="pname"><br>
+    <br>
+    <button onclick="a()">Submit</button>
+    <script>
+        function a(){
+            let txt = document.getElementById("lname").value;
+            if(txt == "student"){
+                document.write("NOT VALID")
+            }
+            else{
+                document.write("VALID")
+            }
+        }
+    </script>
+    </form>
+    </p>
+</body>

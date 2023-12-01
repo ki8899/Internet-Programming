@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Booking</title>
+</head>
+<body>
+    <h1>Bus Ticket Booking</h1>
+    
+    <form action="bus.php" method="post">
+        <label for="passenger_name">Passenger Name:</label>
+        <input type="text" name="passenger_name" required><br>
+
+        <label for="bus_number">Bus Number:</label>
+        <input type="text" name="bus_number" required><br>
+
+        <label for="seat_number">Seat Number:</label>
+        <input type="text" name="seat_number" required><br>
+
+        <label for="departure_time">Departure Time:</label>
+        <input type="date" name="departure_time" required><br>
+
+        <input type="submit" name="submit" value="Book Ticket">
+    </form>
+</body>
+</html>
